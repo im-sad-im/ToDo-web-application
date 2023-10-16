@@ -4,7 +4,7 @@ html{
   font-family: 'helvetica neue';
   background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
 }
-h1 {
+.headingTitle {
   color: #fff;
   padding: 10px;
 }
@@ -92,4 +92,20 @@ footer {
   color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+}
+
+/* navbar */
+.navbar-nav{
+  display: flex;
+  gap : 20px;
+}
+.navbar-nav .nav-item{
+  list-style: none;
+  padding: 10px;
+}
+.navbar-nav .nav-item .nav-link{
+  text-decoration: none;
+}
+ ul li a i {
+  margin-right: 10px;
 }
