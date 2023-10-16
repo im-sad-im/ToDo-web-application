@@ -24,7 +24,6 @@ app.get('/work', (req, res)=>{
 app.post('/', (req, res)=>{
     let item = req.body["newItem"];
     const btn = req.body["list"];
-    console.log(btn);
      if (btn === "Work"){
         workItems.push(item);
         res.redirect("/work");
