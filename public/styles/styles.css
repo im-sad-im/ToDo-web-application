@@ -87,6 +87,9 @@ input[type="text"]:focus {
   color: grey;
   opacity: 1;
 }
+button {
+  cursor: pointer;
+}
 
 footer {
   color: white;
